@@ -1,0 +1,50 @@
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  background-color: #f2f2f2;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.title{
+  position: absolute;
+  width: 730px;
+  height: 64px;
+  margin-left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: 600;
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+.subtitle{
+  position: absolute;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-left: 64px;
+  bottom: 30px;
+}
+
+.main__picture{
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 2;
+}
+
+.blue_square{
+  width: 568px;
+  height: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0px;
+  background-color: #2f80ed;
+  animation: rotate 20s linear infinite;
+}

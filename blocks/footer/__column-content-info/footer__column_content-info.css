@@ -1,0 +1,14 @@
+.footer__column_content-info{
+  flex: 1;
+  max-width: 300px;
+  margin-right: 40px;
+  margin-top: 0;
+}
+
+.column-heading{
+  font-size: 20px;
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}

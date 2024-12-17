@@ -1,0 +1,27 @@
+.footer__social-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__social-icon a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.name_social{
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  transition: opacity 0.5s ease;
+}
+
+.name_social:hover{
+  opacity: 0.5;
+}

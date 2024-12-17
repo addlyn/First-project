@@ -1,0 +1,61 @@
+.footer__columns{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer__column_content-copyright{
+  flex: 1;
+  max-width: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.footer__column-link{
+  transition: opacity 0.5s ease
+}
+
+.footer__column-links {
+  margin: 0; /* Убираем внешние отступы */
+  margin-bottom: 16px;
+  color: white;
+}
+
+.footer__column-links a {
+  display: block; /* Ссылки занимают всю ширину */
+  margin: 0; /* Убираем отступы между ссылками */
+  padding: 0; /* Убираем внутренние отступы */
+  font-size: 16px; /* Текущий размер текста, не изменяем */
+  text-decoration: none; /* Убираем подчеркивание текста */
+  color: white; /* Устанавливаем цвет текста, если нужно */
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column_content-social{
+  flex: 1;
+  max-width: 120px;
+  margin-top: 0;
+}
+
+.footer__column_content-social h5 {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.column-heading{
+  font-size: 20px;
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+

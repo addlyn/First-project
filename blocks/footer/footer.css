@@ -1,0 +1,15 @@
+.footer{
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding-top: 60px;
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+}
+
+.logo__place_footer{
+  display: flex;
+  align-items: center;
+}

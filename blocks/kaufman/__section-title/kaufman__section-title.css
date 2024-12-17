@@ -1,0 +1,12 @@
+.kaufman__section-title{
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  position: relative;
+  z-index: 2;
+}
